@@ -1,5 +1,6 @@
 body{
     font-family: 'Nunito';
+    display: grid;
 }
 nav{
     display: flex;
@@ -133,17 +134,45 @@ h2{
     color: rgba(34, 34, 34, 0.1);
 }
 
-#article1{
-    display: block;
-    float: right;
-    margin: 0 auto;
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: 380px;
+    width: 500px;
+    max-width: 500px;
 }
 
-#article2{
-    display: block;
+#backfigure{
+    z-index: -1;
+}
+
+#section-text span {
+   float: right;
+   font-size: 36px;
+   margin-top: 80px;
+   margin-bottom: 20px;
+}
+
+#section-text p{
+    font-size: 24px;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 650px 350px;
+    grid-template-rows: 380px;
+    
+}
+
+#section-text2 span{
     float: left;
+    font-size: 36px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+#section-text2 p{
+    font-size: 24px;
 }
 
-#spoons{
+#fourth img{
     float: right;
 }
