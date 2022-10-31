@@ -222,3 +222,16 @@ h2{
 .wwh{
     margin: 25px;
 }
+
+#wts-text{
+    display: flex; 
+    align-items: center;
+    font-size: 36px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+#test{
+    margin-left: 25px;
+}
+
