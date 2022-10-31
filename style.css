@@ -2,7 +2,7 @@ body{
     font-family: 'Nunito';
     display: grid;
 }
-nav{
+nav.nav-head{
     display: flex;
     width: 1000px;
     margin: 0 auto;
@@ -25,7 +25,7 @@ nav{
     margin-left: 8px;
 }
 
-nav ul{
+nav.nav-head ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,7 +36,7 @@ nav ul{
     height: 30px;
 }
 
-nav ul li a{
+nav.nav-head ul li a{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -45,11 +45,11 @@ nav ul li a{
     text-decoration: none;
 }
 
-nav ul li.active a{
+nav.nav-head ul li#active a{
     color: #DAA520;
 }
 
-nav ul li a.button{
+nav.nav-head ul li a#button{
     text-transform: uppercase;
     text-decoration: none;
     font-style: normal;
@@ -235,3 +235,11 @@ h2{
     margin-left: 25px;
 }
 
+.container-foto {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+}
+
+#image-nav{
+
+}
