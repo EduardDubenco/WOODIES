@@ -241,5 +241,8 @@ h2{
 }
 
 #image-nav{
-
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
