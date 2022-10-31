@@ -104,7 +104,7 @@ header button{
     position: absolute;
     width: 280px;
     height: 400px;
-    left: 180px;
+    left: 380px;
     top: 950px;
     background: #F7DEA6;
     border-bottom-left-radius: 100px;
@@ -200,4 +200,25 @@ h2{
     display: flex;
     justify-content: space-around;
     margin-top: 55px;
+}
+
+#wwh-text{
+    display: flex; 
+    align-items: center;
+    font-size: 36px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+#cat{
+    margin-left: 25px;
+}
+
+#what-we-have{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wwh{
+    margin: 25px;
 }
