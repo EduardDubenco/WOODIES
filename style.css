@@ -214,15 +214,6 @@ h2{
     margin-left: 25px;
 }
 
-#what-we-have{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.wwh{
-    margin: 25px;
-}
-
 #wts-text{
     display: flex; 
     align-items: center;
@@ -299,3 +290,87 @@ h2{
     font-size: 16px;
 }
 
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3,280px);
+    grid-template-rows: repeat(2,400px);
+    grid-column-gap: 56px;
+    grid-row-gap: 40px;
+}
+
+.color-bg3 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    background: #F9BDBD;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: -1;
+    align-items: center;
+}
+
+.color-bg3 p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 16px;
+}
+
+
+#sn-button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    background: none;
+    padding: 8px 19px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    
+    
+}
+
+#tile2 {
+    background: #F7DEA6;
+}
+
+#tile2 img {
+    padding-left: 20%;
+}
+
+#tile3 {
+    background: #A8DCEC;
+}
+
+#tile3 img {
+    padding-left: 20%;
+}
+
+#tile4 {
+    background: #F9BDBD;
+}
+
+#tile4 img {
+    padding-left: 24%;
+}
+
+#tile5 {
+    background: #F7DEA6;
+}
+
+#tile5 img {
+    padding-left: 8%;
+    padding-top: 15%;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 240px 240px 384px;
+    grid-template-rows: 500px;
+    grid-column-gap: 44px;
+}
