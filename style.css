@@ -124,9 +124,11 @@ section{
     font-size: 36px;
     margin-left: 10px;
 }
+
 #wwalogo{
     color:rgba (137, 121, 66, 0.5);
 }
+
 h2{
     font-weight: 800;
     font-size: 72px;
@@ -156,11 +158,11 @@ h2{
 #section-text p{
     font-size: 24px;
 }
+
 .container2 {
     display: grid;
     grid-template-columns: 650px 350px;
     grid-template-rows: 380px;
-    
 }
 
 #section-text2 span{
@@ -270,7 +272,6 @@ h2{
     width: 330px;
     z-index: 0;
     margin-top: 32px;
-    font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -284,7 +285,6 @@ h2{
     padding: 9px 24px;
     z-index: 1;
     margin-left: -30px;
-    font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -310,7 +310,6 @@ h2{
 }
 
 .color-bg3 p {
-    font-family: 'Nunito';
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -318,9 +317,7 @@ h2{
     margin-left: 16px;
 }
 
-
 #sn-button {
-    font-family: 'Nunito';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -331,8 +328,6 @@ h2{
     position: absolute;
     right: 20px;
     bottom: 20px;
-    
-    
 }
 
 #tile2 {
@@ -387,7 +382,6 @@ footer {
 
 #logo404 {
     margin-left: 40px;
-    font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -396,7 +390,6 @@ footer {
 }
 
 footer tr th a {
-    font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
